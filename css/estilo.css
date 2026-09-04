@@ -1,0 +1,26 @@
+.nav-link{
+    border-radius: 5px;
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(148, 147, 147);
+    color: white;
+}
+.o1{
+    font-size: 50px;
+}
+.o2{
+    font-size: 5px;
+}   
+p.col{
+    text-align: center;
+    columns: 5;
+    gap: 25px;
+}
+.col-3{
+    border-radius: 5px;
+
+}
+.foto_p{
+    border-radius: 5px;
+}
