@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+  
+  <header class="bg-black py-5 text-center container">
+    <h1 class="text-white" id ="title">Formulário Incrível</h1>
+    <p class="text-secondary">Trabalho de Desing professional</p>
+  </header>
+    <nav class="container bg-dark py-1 text-white">
+      <ul class="nav justify content-center">
+        <li class="nav-item"></li>
+          <a class="nav-link" href="#apresentação">Apresentação</a>
+        <li class="nav-item"></li>
+          <a class="nav-link " href="#quemsomos">Quem somos</a>
+        <li class="nav-item"></li>
+          <a  class="nav-link" href="#contato">Contato</a>
+      </ul>
+    </nav>
+    
+    <div id ="conteudo" class=" container bg-light ">
+            <section id="apresentacao" class="container py-5">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="fw-bold" id="apresentação">Sobre o Formulário Incrível</h2>
+            <p class="lead">O <strong>Formulário Incrível</strong> é um protótipo web criado para tornar a avaliação de apresentações acadêmicas mais rápida e participativa. Pensado para colegas de turma e professores durante a defesa do projeto, ele resolve um desafio simples: coletar uma opinião objetiva sobre o trabalho em poucos segundos, sem burocracia.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-4 g-3 text-center mb-4">
+          <div class="col">
+            <p class="fs-2 mb-1">📝</p>
+            <p class="fw-semibold mb-0">Avaliação instantânea</p>
+            <p class="small text-muted">Formulário interativo que processa a resposta em tempo real, via JavaScript.</p>
+          </div>
+          <div class="col">
+            <p class="fs-2 mb-1">👥</p>
+            <p class="fw-semibold mb-0">Mural da equipe</p>
+            <p class="small text-muted">Cards com foto, nome e função de cada integrante do projeto.</p>
+          </div>
+          <div class="col">
+            <p class="fs-2 mb-1">🎨</p>
+            <p class="fw-semibold mb-0">Design responsivo</p>
+            <p class="small text-muted">Layout construído com Bootstrap 5, adaptável a qualquer tela.</p>
+          </div>
+
+          <div class="col">
+            <p class="fs-2 mb-1">🧭</p>
+            <p class="fw-semibold mb-0">Navegação intuitiva</p>
+            <p class="small text-muted">Menu fixo que leva direto à apresentação, à equipe e ao contato.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-9">
+            <p>Este site foi construído de forma colaborativa: <strong>Pedro</strong> assinou a apresentação e a estrutura geral da página; <strong>Chiminello</strong> e <strong>Gabriel</strong> desenvolveram as funcionalidades e a lógica de navegação; <strong>Natali Nalevaiko</strong> organizou o mural da equipe; e <strong>Natali Santos</strong> cuidou do formulário de contato e das chamadas para ação. Conheça agora quem deu vida a cada etapa:</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container " id="quemsomos">
+        <div class="row bg-dark text-white text-center py-2 d-flex justify-content-center">
+           <div class="col-3 bg-info m-2 p-2">
+              <p class="fs-3">Pedro Taddei Viante</p>
+              <img src="./img/Pedro.jpg" alt="Pedro" width="150px" height="auto" class="foto_p"></img>
+              <p>Apresentador</p> 
+            </div>
+           <div class="col-3 bg-info m-2 p-2">
+              <p class="fs-3">Natali Nalevaiko</p>
+              <img src="./img/Natali_N.png" alt="Natali_N" width="150px" height="auto" class="foto_p"></img>
+              <p>Quem Somos (Mural da Equipe)</p>
+            </div>
+           <div class="col-3 bg-info m-2 p-2">
+              <p class="fs-3">Natali Santos </p>
+              <img src="./img/Natali_s.png" alt="Natali_S" width="150px" height="auto" class="foto_p"></img>
+              <p>Call to Action & Contato</p>
+            </div>
+           <div class="col-3 bg-info m-2 p-2">
+              <p class="fs-3">Chiminello</p>
+              <img src="./img/Chiminello.jpg" alt="Chiminello" width="150px" height="auto" class="foto_p"></img>
+              <p>Funcionalidades Principais</p>
+            </div>
+           <div class="col-3 bg-info m-2 p-2">
+              <p class="fs-3">Gabriel Rezende</p>
+              <img src="./img/Gabriel.jpg" alt="Gabriel" width="150px" height="auto" class="foto_p"></img>
+              <p>Funcionalidades Principais</p>
+            </div>
+        </div> 
+      </section>
+    
+      <form id="form" class= "container text-center">
+        <label class="fs-4 py-3">Qual nota merece esse trabalho?</label><br>
+        <select name="resposta" id="resposta" class="fs-3">
+          <option class="o1" value="a">Nota maxima</option>
+          <option class="o2" value="b">outra nota</option>
+        </select><br><br>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      
+        <section id="contato" class="container py-5">
+  <div class="row justify-content-center text-center mb-4">
+    <div class="col-lg-8">
+      <h2 class="fw-bold">Contato & Repositórios</h2>
+      <p class="lead">Quer trocar uma ideia, revisar o código ou só bisbilhotar os commits? Fale com a gente direto pelo GitHub:</p>
+    </div>
+  </div>
+
+  <div class="row row-cols-2 row-cols-md-5 g-3 text-center justify-content-center">
+    <div class="col">
+      <img src="./img/Pedro.jpg" alt="Pedro" class="foto_p rounded-circle mb-2" width="80" height="80">
+      <p class="fw-semibold mb-0">Pedro Taddei Viante</p>
+      <a href="https://github.com/PedroViante" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm mt-1">🐙 @PedroViante</a>
+    </div>
+    <div class="col">
+      <img src="./img/Natali_N.png" alt="Natali_N" class="foto_p rounded-circle mb-2" width="80" height="80">
+      <p class="fw-semibold mb-0">Natali Nalevaiko</p>
+      <a href="https://github.com/natalinalevaiko0-eng" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm mt-1">🐙 @natalinalevaiko0-eng</a>
+    </div>
+    <div class="col">
+      <img src="./img/Natali_s.png" alt="Natali_S" class="foto_p rounded-circle mb-2" width="80" height="80">
+      <p class="fw-semibold mb-0">Natali Santos</p>
+      <a href="https://github.com/natali-snts" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm mt-1">🐙 @natali-snts</a>
+    </div>
+    <div class="col">
+      <img src="./img/Chiminello.jpg" alt="Chiminello" class="foto_p rounded-circle mb-2" width="80" height="80">
+      <p class="fw-semibold mb-0">Chiminello</p>
+      <a href="https://github.com/Chiminello99" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm mt-1">🐙 @Chiminello99</a>
+    </div>
+    <div class="col">
+      <img src="./img/Gabriel.jpg" alt="Gabriel" class="foto_p rounded-circle mb-2" width="80" height="80">
+      <p class="fw-semibold mb-0">Gabriel Rezende</p>
+      <a href="https://github.com/Cadaverblah" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm mt-1">🐙 @Cadaverblah</a>
+    </div>
+  </div>
+</section>
+      
+      </form>
+
+      <script>
+        document.getElementById("form").addEventListener("submit", function(e){ 
+          e.preventDefault(); // impede o envio normal do form
+
+          const resposta = document.getElementById("resposta").value;
+
+          if (resposta === "a") {
+            window.location.href = "https://i.pinimg.com/474x/5d/ae/26/5dae26f5c482ccff424482b8cdc1eb6a.jpg";
+          } else if (resposta === "b") {
+            window.location.href = "https://pt.wikihow.com/Falar-Para-uma-Pessoa-que-Ela-Est%C3%A1-Errada";
+          }
+        });
+        
+      </script>
+    
+    </div>
+</body>
+</html>
